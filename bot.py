@@ -10,13 +10,13 @@ from discord.ext.commands import Bot
 log = logging.getLogger('discord')
 log.setLevel(logging.INFO)
 
-PYCHESS = os.getenv("PYCHESS", "http://127.0.0.1:8080")
+PYCHESS = os.getenv("PYCHESS", "http://liatomic.herokuapp.com")
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
-PYCHESS_LOBBY_CHANNEL_ID = 653203449927827456
-GAME_SEEK_CHANNEL_ID = 823862902648995910
-TOURNAMENT_CHANNEL_ID = 861234739820888074
+PYCHESS_LOBBY_CHANNEL_ID = 927859759388983306
+GAME_SEEK_CHANNEL_ID = 928969595023425596
+TOURNAMENT_CHANNEL_ID = 927885303476269056
 
 intents = discord.Intents(messages=True, guilds=True)
 
